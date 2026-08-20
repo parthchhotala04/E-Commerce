@@ -29,7 +29,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/addtocart" element={<Cart />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NoPage />} />
             <Route path="/manage-product" element={<ManageProduct />} />
           </Route>
@@ -44,4 +44,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
